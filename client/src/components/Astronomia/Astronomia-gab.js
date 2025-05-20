@@ -32,7 +32,7 @@ const AstronomiaGab = () => {
                 </div>
                 <br/>
                 <div className="text-container11">
-                        <h4 className="fontezao7cor">Fase Única - 2025</h4>
+                        <h4 className="fontezao7cor">2025</h4>
                 </div>
                 <div className="button-container-diff">
                     <a href={nivel3_25_oba}>
