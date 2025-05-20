@@ -39,6 +39,9 @@ const Astronomia = () => {
                     <Link to="/astronomia-simulados">
                         <button class="botao-transparente2">SIMULADOS</button>
                     </Link>
+                    <Link to="/astronomia-gabaritos">
+                        <button class="botao-transparente2">GABARITOS COMENTADOS</button>
+                    </Link>
                 </div>
                 <br/>
             </div>

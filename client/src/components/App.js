@@ -19,6 +19,7 @@ import Quimicamat from './Quimica/Quimica-mat';
 import Astronomiasim from './Astronomia/Astronomia-sim';
 import Fisicagab from './Fisica/Fisica-gab';
 import Fisicagabobf from './Fisica/Fisica-gab-obf';
+import AstronomiaGab from "./Astronomia/Astronomia-gab"
 import Matematicagab from './Matematica/Mat-gab';
 import Matematicagaboim from './Matematica/Mat-gab-oim';
 import Matematicagabman from './Matematica/Mat-gab-man';
@@ -40,6 +41,7 @@ class App extends Component {
                                 <Link to="/astronomia-problemas">Problemas de Astronomia</Link>
                                 <Link to="/astronomia-materiais">Materiais de Astronomia</Link>
                                 <Link class="last" to="/astronomia-simulados">Simulados de Astronomia</Link>
+                                <Link class="last" to="/astronomia-gabaritos">Gabaritos Comentados de Astronomia</Link>
                             </div>
                         </div>
                         <div class="menu">
@@ -89,6 +91,7 @@ class App extends Component {
                         <Route path="/química-materiais" element={<Quimicamat />} />
                         <Route path="/astronomia-simulados" element={<Astronomiasim />} />
                         <Route path="/física-gabaritos" element={<Fisicagab />} />
+                        <Route path="/astronomia-gabaritos" element={<AstronomiaGab />} />
                         <Route path="/física-gabaritos-obf" element={<Fisicagabobf />} />
                         <Route path="/matemática-gabaritos" element={<Matematicagab />} />
                         <Route path="/matemática-gabaritos-oim" element={<Matematicagaboim />} />
