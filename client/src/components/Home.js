@@ -1,15 +1,39 @@
 import React from 'react';
+import Slider from "react-slick";
 import passarinho from './imgs/passarinho.png';
+import aulaoObmep from './imgs/AULÃO OBMEP YT.png';
 import material from './imgs/mat.png';
 import gabarito from './imgs/gab.png';
 import questao from './imgs/qst.png';
 import InstagramWidget from './utils/Instagram';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
+    const imagens = [passarinho, aulaoObmep];
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        pauseOnHover: false,
+    };
+
     return (
             <div>
-                <div class="img-passarinho">
-                    <img class="passarinho" src={passarinho}></img>
+                <div className="img-passarinho">
+                    <Slider {...settings}>
+                        {imagens.map((src, index) => (
+                            <div key={index} >
+                                <img className="passarinho" src={src} alt={`passarinho ${index + 1}`}  />
+                            </div>
+                        ))}
+                    </Slider>
                 </div>
                 <br/>
                 <div class="content">

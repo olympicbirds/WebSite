@@ -11,6 +11,9 @@ import RebecaMikai from './imgs/qs/Rebeca-Mikai.jpg';
 
 import VictorGarcia from './imgs/qs/Victor-Garcia.jpeg';
 
+import ClaraCristina from './imgs/qs/Clara Cristina Guimarães Antunes.jpg';
+import SofiaCarneiro from './imgs/qs/Sofia Carneiro.jpg';
+
 // Astronomia
 
 import FelipeMaia from './imgs/qs/Felipe-Maia.jpg';
@@ -21,6 +24,11 @@ import MariaClara from './imgs/qs/Maria-Clara.jpg';
 import NataliaRosa from './imgs/qs/Natalia-Rosa.jpg';
 import NicholasLage from './imgs/qs/Nicholas-Lage.jpg';
 import PauloIsidro from './imgs/qs/Paulo-Isidro.jpeg';
+
+import AlexandreMonte from './imgs/qs/Alexandre Monte.jpg';
+import GuilhermeAugusto from './imgs/qs/Guilherme Augusto.jpg';
+import LuisHenrique from './imgs/qs/Luis Henrique_.jpg';
+import HelenaMendes from './imgs/qs/Helena Mendes.jpg'
 
 // Física
 
@@ -33,19 +41,32 @@ import MariaBeatriz from './imgs/qs/Maria-Beatriz.jpg';
 import PedroSaldanha from './imgs/qs/Pedro-Saldanha.jpg';
 import WilliamAlves from './imgs/qs/William-Alves.jpg';
 
+import TobiasGabriel from './imgs/qs/Tobias Gabriel.jpg';
+import JailsonHenrique from './imgs/qs/Jailson Henrique.jpg';
+import LuizFernando from './imgs/qs/Luiz Fernando.jpg';
+
 // Matemática
 
 import MarcosVinicius from './imgs/qs/Marcos-Vinicius.jpg';
 import GuilhermeGalvao from './imgs/qs/Guilherme-Galvao.jpg';
 import JuliaLeguiza from './imgs/qs/Julia-Leguiza.jpg';
+import JulioCesar from './imgs/qs/Julio-Cesar.jpg';
 import KauanEmanuel from './imgs/qs/Kauan-Emanuel.jpg';
 import PedroHenrique from './imgs/qs/Pedro-Henrique.jpg';
 import FelipeMota from './imgs/qs/Felipe-Mota.jpeg';
+
+import ArturFerreira from './imgs/qs/Artur Ferreira.jpg';
+import PauloJonatas from './imgs/qs/Paulo Jônatas.jpg';
+import SergioBittencourt from './imgs/qs/Sérgio Bittencourt.jpg';
+import SofiaCosta from './imgs/qs/Sofia Costa Mat.jpg';
 
 // Química
 
 import AnnaKessya from './imgs/qs/Anna-Kessya.jpg';
 import LuizClaudio from './imgs/qs/Luiz-Claudio.jpg';
+
+import GuilhermeSoares from './imgs/qs/Guilherme Soares.jpg';
+import IsabelaXenofonte from './imgs/qs/Isabela Xenofonte Martins.jpg';
 
 // Ex Colaboradores
 
@@ -97,30 +118,26 @@ const QuemSomos = () => {
                     </center>
                 </div>
                 <div class="membro">
-                    <img src={RebecaMikai} class="imagem-circular"/>
+                    <img src={KauanEmanuel} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Rebeca Mikai</h3>
-                        <h5 class="textozao">Diretora de Conteúdo</h5>
+                        <h3 class="fontezao3cor">Kauan Emanuel</h3>
+                        <h5 class="textozao">Diretor de Conteúdo</h5>
                     </center>
                 </div>
             </div>
             <br/>
-            <h3 className="fontezaocor">Departamento de Mídia & TI</h3>
+            <h3 className="fontezaocor">Departamento de Mídia</h3>
+
             <div class="equipe-container">
+
                 <div class="membro">
-                    <img src={KauanEmanuel} class="imagem-circular"/>
+                    <img src={ClaraCristina} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Kauan Emanuel</h3>
-                        <h5 class="textozao">Coordenador</h5>
+                        <h3 class="fontezao3cor">Clara Cristina</h3>
+                        <h5 class="textozao">Editora de Vídeo</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={VictorGarcia} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Victor Garcia</h3>
-                        <h5 class="textozao">Desenvolvedor de Software</h5>
-                    </center>
-                </div>
+
                 <div class="membro">
                     <img src={GustavoGlobig} class="imagem-circular"/>
                     <center>
@@ -128,6 +145,14 @@ const QuemSomos = () => {
                         <h5 class="textozao">Editor de Vídeo</h5>
                     </center>
                 </div>
+                <div class="membro">
+                    <img src={SofiaCarneiro} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Sofia Carneiro</h3>
+                        <h5 class="textozao">Criadora de Posts</h5>
+                    </center>
+                </div>
+
             </div>
             <br/>
             <h3 className="fontezaocor">Departamento de Astronomia</h3>
@@ -137,6 +162,13 @@ const QuemSomos = () => {
                     <center>
                         <h3 class="fontezao3cor">Felipe Maia</h3>
                         <h5 class="textozao">Coordenador</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={AlexandreMonte} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Alexandre Monte</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
                 <div class="membro">
@@ -153,6 +185,22 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
+            </div>
+            <div class="equipe-container">
+                <div class="membro">
+                    <img src={GuilhermeAugusto} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Guilherme Augusto</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={HelenaMendes} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Helena Mendes</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
                 <div class="membro">
                     <img src={KauaVictor} class="imagem-circular"/>
                     <center>
@@ -160,20 +208,23 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
-            </div>
-            <div class="equipe-container">
                 <div class="membro">
-                    <img src={LeonLuca} class="imagem-circular"/>
+                    <img src={LuisHenrique} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Leon Luca</h3>
+                        <h3 class="fontezao3cor">Luis Henrique</h3>
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
+
+            </div>
+            <div class="equipe-container">
+
+
                 <div class="membro">
-                    <img src={MariaClara} class="imagem-circular"/>
+                    <img src={PauloIsidro} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Maria Clara</h3>
-                        <h5 class="textozao">Criadora de Materiais</h5>
+                        <h3 class="fontezao3cor">Paulo Isidro</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
                 <div class="membro">
@@ -183,23 +234,9 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={NicholasLage} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Nicholas Lage</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
+
             </div>
-            <div class="equipe-container">
-                <div class="membro">
-                    <img src={PauloIsidro} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Paulo Isidro</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
-            </div>
+
             <br/>
             <h3 className="fontezaocor">Departamento de Física</h3>
             <div class="equipe-container">
@@ -211,21 +248,23 @@ const QuemSomos = () => {
                     </center>
                 </div>
                 <div class="membro">
+                    <img src={AlexandreMonte} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Alexandre Monte</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
                     <img src={GabrielDorigon} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Gabriel Dorigon</h3>
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
+
             </div>
             <div class="equipe-container">
-                <div class="membro">
-                    <img src={GuilhermeMartins} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Guilherme Martins</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
+
                 <div class="membro">
                     <img src={GustavoGlobig} class="imagem-circular"/>
                     <center>
@@ -233,10 +272,11 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
+
                 <div class="membro">
-                    <img src={HeitorChaves} class="imagem-circular"/>
+                    <img src={JailsonHenrique} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Heitor Chaves</h3>
+                        <h3 class="fontezao3cor">Jailson Henrique</h3>
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
@@ -247,19 +287,34 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
+                <div class="membro">
+                    <img src={LuizFernando} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Luiz Fernando</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+
             </div>
             <div class="equipe-container">
                 <div class="membro">
-                    <img src={PedroSaldanha} class="imagem-circular"/>
+                    <img src={RebecaMikai} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Pedro Saldanha</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
+                        <h3 class="fontezao3cor">Rebeca Mikai</h3>
+                        <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
                 <div class="membro">
                     <img src={TiagoRocha} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Tiago Rocha</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={TobiasGabriel} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Tobias Gabriel</h3>
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
@@ -271,51 +326,64 @@ const QuemSomos = () => {
                     </center>
                 </div>
             </div>
+
             <br/>
             <h3 className="fontezaocor">Departamento de Matemática</h3>
             <div class="equipe-container">
                 <div class="membro">
-                    <img src={MarcosVinicius} class="imagem-circular"/>
+                    <img src={KauanEmanuel} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Marcos Vinícius</h3>
+                        <h3 class="fontezao3cor">Kauan Emanuel</h3>
                         <h5 class="textozao">Coordenador</h5>
                     </center>
                 </div>
                 <div class="membro">
-                    <img src={GuilhermeGalvao} class="imagem-circular"/>
+                    <img src={ArturFerreira} class="imagem-circular"/>
                     <center>
-                        <h3 class="fontezao3cor">Guilherme Galvão</h3>
+                        <h3 class="fontezao3cor">Artur Ferreira</h3>
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={JuliaLeguiza} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Júlia Leguiza</h3>
-                        <h5 class="textozao">Criadora de Materiais</h5>
-                    </center>
-                </div>
-                <div class="membro">
-                    <img src={KauanEmanuel} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Kauan Emanuel</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
-            </div>
-            <div class="equipe-container">
-                <div class="membro">
-                    <img src={PedroHenrique} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Pedro Henrique</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
+                
                 <div class="membro">
                     <img src={FelipeMota} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Felipe Mota</h3>
                         <h5 class="textozao">Criador do Livro</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={JulioCesar} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Júlio Cesar</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+
+
+            </div>
+
+            <div class="equipe-container">
+
+                <div class="membro">
+                    <img src={PauloJonatas} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Paulo Jônatas</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={SergioBittencourt} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Sérgio Bittencourt</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={SofiaCosta} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Sofia Costa</h3>
+                        <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
             </div>
@@ -326,7 +394,21 @@ const QuemSomos = () => {
                     <img src={AnnaKessya} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Anna Kessya</h3>
+                        <h5 class="textozao">Coordenadora</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={GuilhermeSoares} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Guilherme Soares</h3>
                         <h5 class="textozao">Criadora de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={IsabelaXenofonte} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Isabela Xenofonte</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
                 <div class="membro">
@@ -336,24 +418,11 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criador de Materiais</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={RebecaMikai} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Rebeca Mikai</h3>
-                        <h5 class="textozao">Criadora de Materiais</h5>
-                    </center>
-                </div>
             </div>
             <br/>
             <h3 className="fontezaocor">Ex Colaboradores</h3>
             <div class="equipe-container">
-                <div class="membro">
-                    <img src={RaulSztutman} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Raul Sztutman</h3>
-                        <h5 class="textozao">Criador de Materiais</h5>
-                    </center>
-                </div>
+
                 <div class="membro">
                     <img src={AlefeRyan} class="imagem-circular"/>
                     <center>
@@ -368,11 +437,101 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
+                
+                <div class="membro">
+                    <img src={GuilhermeGalvao} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Guilherme Galvão</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={GuilhermeMartins} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Guilherme Martins</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                
+
+            </div>
+            <div class="equipe-container">
+                
+                <div class="membro">
+                    <img src={HeitorChaves} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Heitor Chaves</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+
+                <div class="membro">
+                    <img src={JuliaLeguiza} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Júlia Leguiza</h3>
+                        <h5 class="textozao">Criadora de Materiais</h5>
+                    </center>
+                </div>
+
                 <div class="membro">
                     <img src={LeonardoTorres} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Leonardo Torres</h3>
                         <h5 class="textozao">Coordenador</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={MarcosVinicius} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Marcos Vinícius</h3>
+                        <h5 class="textozao">Coordenador</h5>
+                    </center>
+                </div>
+            </div>
+            <div class="equipe-container">
+
+                <div class="membro">
+                    <img src={MariaClara} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Maria Clara</h3>
+                        <h5 class="textozao">Criadora de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={NicholasLage} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Nicholas Lage</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={PedroHenrique} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Pedro Henrique</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                    <div class="membro">
+                    <img src={PedroSaldanha} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Pedro Saldanha</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+            </div>
+            <div class="equipe-container">
+                <div class="membro">
+                    <img src={RaulSztutman} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Raul Sztutman</h3>
+                        <h5 class="textozao">Criador de Materiais</h5>
+                    </center>
+                </div>
+                <div class="membro">
+                    <img src={VictorGarcia} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Victor Garcia</h3>
+                        <h5 class="textozao">Desenvolvedor do Site</h5>
                     </center>
                 </div>
             </div>

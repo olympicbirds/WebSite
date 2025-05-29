@@ -290,22 +290,75 @@ input::placeholder {
 }
 
 .img-passarinho {
-    position: relative;
-    overflow: hidden;
     width: 100%;
-    margin: 0; 
+
+    margin: 0 auto;
     padding: 0;
+    overflow: hidden;
 }
 
 .passarinho {
-    margin-left: 1%;
-    margin-right: 1%;
-    border-radius: 5%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
-    width: 97.5%;
-    height: 97.5%;
+    border-radius: 12px;
 }
 
+/* Estilo dos dots (indicadores de progresso) */
+.slick-dots {
+    display: flex !important;
+    justify-content: center;
+    gap: 10px;
+    bottom: 16px;
+}
+
+/* Cada dot como uma barra horizontal */
+.slick-dots li {
+    width: 60px;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove o botão interno padrão */
+.slick-dots li button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    opacity: 0;
+    cursor: default;
+}
+
+/* Barra de preenchimento animada */
+.slick-dots li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #eec259; /* Azul, pode personalizar */
+    transition: width 0s;
+}
+
+/* Animação de progresso quando ativo */
+.slick-dots li.slick-active::after {
+    animation: progressoDot 3s linear forwards;
+}
+
+/* Keyframe da animação */
+@keyframes progressoDot {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
 .textao {
     display: flex;
     justify-content: center;

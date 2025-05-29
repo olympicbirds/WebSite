@@ -15,11 +15,14 @@
   "description": "Olympic Birds Project",
   "dependencies": {
     "express": "^4.21.2",
+    "framer-motion": "^12.12.2",
     "parcel-bundler": "^1.12.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-ga4": "^2.1.0",
-    "react-router-dom": "^6.4.0"
+    "react-router-dom": "^6.4.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
