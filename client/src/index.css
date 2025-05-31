@@ -290,7 +290,7 @@ input::placeholder {
 }
 
 .img-passarinho {
-    width: 100%;
+    width: 93%;
 
     margin: 0 auto;
     padding: 0;
@@ -309,12 +309,12 @@ input::placeholder {
     display: flex !important;
     justify-content: center;
     gap: 10px;
-    bottom: 16px;
+    bottom: 30px;
 }
 
 /* Cada dot como uma barra horizontal */
 .slick-dots li {
-    width: 60px;
+    width: 70px;
     height: 6px;
     background-color: #ddd;
     border-radius: 4px;
@@ -341,7 +341,7 @@ input::placeholder {
     top: 0;
     height: 100%;
     width: 0%;
-    background-color: #eec259; /* Azul, pode personalizar */
+    background-color: #FFC211   ; /* Azul, pode personalizar */
     transition: width 0s;
 }
 
