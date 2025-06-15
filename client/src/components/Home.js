@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import passarinho from './imgs/passarinho.png';
 import aulaoObmep from './imgs/AULÃO OBMEP YT.png';
+import aulaOBF from './imgs/AulãoOBF.png';
+import gabaOBF from './imgs/GabaOBF.png';
 import material from './imgs/mat.png';
 import gabarito from './imgs/gab.png';
 import questao from './imgs/qst.png';
@@ -10,7 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
-    const imagens = [passarinho, aulaoObmep];
+    const imagens = [passarinho, gabaOBF];
 
     const settings = {
         dots: true,
@@ -85,7 +87,7 @@ const Home = () => {
                         </div>
                         <div class="video-responsive">
                             <iframe
-                                src="https://www.youtube.com/embed/4QbzI082cfc"
+                                src="https://www.youtube.com/embed/K_UWYOsdl6o"
                                 title="YouTube video player"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

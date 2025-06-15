@@ -5,6 +5,8 @@ import obmep from '../imgs/obmep.jpg';
 // gab-obmep
 
 import gabobmep from '../docs/gabaritos/gabaritos-matematica/OBMEP_2_fase.pdf';
+import obmep2025n2 from '../docs/gabaritos/gabaritos-matematica/OBMEP2025N2.pdf';
+import obmep2025n3 from '../docs/gabaritos/gabaritos-matematica/OBMEP2025N3.pdf';
 
 const Matematicagab = () => {
     return (
@@ -38,6 +40,20 @@ const Matematicagab = () => {
                     <Link to="/matemática-gabaritos-ompd">
                         <button class="botao-transparente2">OMpD</button>
                     </Link>
+                </div>
+                <br/>
+                <div className="text-container11">
+                        <h4 className="fontezao7cor">1° Fase - 2025</h4>
+                </div>
+                <div className="button-container-diff">
+                    <a href={obmep2025n2}>
+                        <button class="botao-transparente2-diff">Nível 2</button>
+                    </a>
+                </div>
+                <div className="button-container-diff">
+                    <a href={obmep2025n3}>
+                        <button class="botao-transparente2-diff">Nível 3</button>
+                    </a>
                 </div>
                 <br/>
                 <div className="text-container11">

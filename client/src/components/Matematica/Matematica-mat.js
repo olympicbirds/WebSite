@@ -12,6 +12,7 @@ import ObmepSeqI from '../docs/materiais/material-matematica/OBMEP_Sequencias_I.
 import ObmepSeqII from '../docs/materiais/material-matematica/OBMEP_Sequencias_II.pdf';
 import ObmepTeoNumerosI from '../docs/materiais/material-matematica/OBMEP_Teoria_Numeros_I.pdf';
 import ObmepTeoNumerosII from '../docs/materiais/material-matematica/OBMEP_Teoria_Numeros_II.pdf';
+import Aulao from '../docs/materiais/material-matematica/Aulão_OBMEP___OB____EOBA.pdf';
 
 const Matematicamat = () => {
     return (
@@ -28,7 +29,18 @@ const Matematicamat = () => {
             </center>
             <div class="fundo">
                 <center>
-                    
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Questões de Revisão </h4>
+                        <h4 className="cor">
+                            Aulão OBMEP 
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={Aulao}>
+                            <h4 className="cordiffff">Acesse aqui</h4>
+                        </a>
+                    </div>
+                    <br />
                     <div className="text-container3">
                         <h4 className="fontezao7cor">Coletâneas de Sequências </h4>
                         <h4 className="cor">

@@ -113,13 +113,7 @@ const QuemSomos = () => {
                         <h5 class="textozao">Vice-presidente</h5>
                     </center>
                 </div>
-                <div class="membro">
-                    <img src={LeonLuca} class="imagem-circular"/>
-                    <center>
-                        <h3 class="fontezao3cor">Leon Luca</h3>
-                        <h5 class="textozao">Diretor de Materiais</h5>
-                    </center>
-                </div>
+
                 <div class="membro">
                     <img src={KauanEmanuel} class="imagem-circular"/>
                     <center>
@@ -429,6 +423,7 @@ const QuemSomos = () => {
                         <h5 class="textozao">Criadora de Materiais</h5>
                     </center>
                 </div>
+
                 <div class="membro">
                     <img src={LuizClaudio} class="imagem-circular"/>
                     <center>
@@ -440,6 +435,7 @@ const QuemSomos = () => {
             <br/>
             <h3 className="fontezaocor">Ex Colaboradores</h3>
             <div class="equipe-container">
+
 
                 <div class="membro">
                     <img src={AlefeRyan} class="imagem-circular"/>
@@ -470,10 +466,10 @@ const QuemSomos = () => {
                         <h5 class="textozao">Física</h5>
                     </center>
                 </div>
-                
 
             </div>
             <div class="equipe-container">
+
                 
                 <div class="membro">
                     <img src={HeitorChaves} class="imagem-circular"/>
@@ -499,15 +495,21 @@ const QuemSomos = () => {
                     </center>
                 </div>
                 <div class="membro">
+                    <img src={LeonLuca} class="imagem-circular"/>
+                    <center>
+                        <h3 class="fontezao3cor">Leon Luca</h3>
+                        <h5 class="textozao">Diretor de Materiais</h5>
+                    </center>
+                </div>
+            </div>
+            <div class="equipe-container">
+                <div class="membro">
                     <img src={MarcosVinicius} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Marcos Vinícius</h3>
                         <h5 class="textozao">Matemática</h5>
                     </center>
                 </div>
-            </div>
-            <div class="equipe-container">
-
                 <div class="membro">
                     <img src={MariaClara} class="imagem-circular"/>
                     <center>
@@ -529,15 +531,16 @@ const QuemSomos = () => {
                         <h5 class="textozao">Matemática</h5>
                     </center>
                 </div>
-                    <div class="membro">
+
+            </div>
+            <div class="equipe-container">
+                <div class="membro">
                     <img src={PedroSaldanha} class="imagem-circular"/>
                     <center>
                         <h3 class="fontezao3cor">Pedro Saldanha</h3>
                         <h5 class="textozao">Física</h5>
                     </center>
                 </div>
-            </div>
-            <div class="equipe-container">
                 <div class="membro">
                     <img src={RaissaLoana} class="imagem-circular"/>
                     <center>

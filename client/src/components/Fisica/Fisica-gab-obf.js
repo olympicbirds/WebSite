@@ -14,6 +14,11 @@ import nivel_3_3obf from '../docs/gabaritos/gabaritos-fisica/obf/3°fase-t/OBF_F
 import nivel_1_3eobf from '../docs/gabaritos/gabaritos-fisica/obf/3°fase-e/OBF_Fase_3_Experimental_N1.pdf';
 import nivel_2_3eobf from '../docs/gabaritos/gabaritos-fisica/obf/3°fase-e/OBF_Fase_3_Experimental_N2.pdf';
 
+import nivel_jr_1obf25 from '../docs/gabaritos/gabaritos-fisica/obf/1fase/Njr.pdf';
+import nivel_1_1obf25 from '../docs/gabaritos/gabaritos-fisica/obf/1fase/N1.pdf';
+import nivel_2_1obf25 from '../docs/gabaritos/gabaritos-fisica/obf/1fase/N2.pdf';
+import nivel_3_1obf25 from '../docs/gabaritos/gabaritos-fisica/obf/1fase/N3.pdf';
+
 const Fisicagabobf = () => {
     return (
         <div>
@@ -43,6 +48,24 @@ const Fisicagabobf = () => {
                 </div>
                 <br/>
                 <div className="text-container11">
+                        <h4 className="fontezao7cor">1° Fase - 2025</h4>
+                </div>
+                <div className="button-container-diff">
+                    <a href={nivel_jr_1obf25}>
+                        <button class="botao-transparente2-diff">Nível Jr</button>
+                    </a>
+                    <a  href={nivel_1_1obf25}>
+                        <button class="botao-transparente2-diff">Nível 1</button>
+                    </a>
+                    <a  href={nivel_2_1obf25}>
+                        <button class="botao-transparente2-diff">Nível 2</button>
+                    </a>
+                    <a  href={nivel_3_1obf25}>
+                        <button class="botao-transparente2-diff">Nível 3</button>
+                    </a>
+                </div>
+                <br/>
+                <div className="text-container11">
                         <h4 className="fontezao7cor">2° Fase - 2024</h4>
                 </div>
                 <div className="button-container-diff">
@@ -58,7 +81,7 @@ const Fisicagabobf = () => {
                 </div>
                 <br/>
                 <div className="text-container11">
-                        <h4 className="fontezao7cor">3° Fase T - 2024</h4>
+                        <h4 className="fontezao7cor">3° Fase Téorica - 2024</h4>
                 </div>
                 <div className="button-container-diff">
                     <a href={nivel_jr_3obf}>
@@ -76,7 +99,7 @@ const Fisicagabobf = () => {
                 </div>
                 <br/>
                 <div className="text-container11">
-                        <h4 className="fontezao7cor">3° Fase E - 2024</h4>
+                        <h4 className="fontezao7cor">3° Fase Experimental - 2024</h4>
                 </div>
                 <div className="button-container-diff">
                     <a href={nivel_1_3eobf}>

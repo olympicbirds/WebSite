@@ -10,6 +10,8 @@ import potele from '../docs/materiais/material-fisica/Potencial_Elétrico.pdf';
 import matrel from '../docs/materiais/material-fisica/Materiais_Relatividade__Física___OB.pdf';
 import matopt from '../docs/materiais/material-fisica/opticageometricca.pdf';
 import cinema from '../docs/materiais/material-fisica/Aula2Cinemática.pdf';
+import movimentocircular from '../docs/materiais/material-fisica/Aula4_MovimentoCircular.pdf';
+import momentoenergia from '../docs/materiais/material-fisica/Aula5_MomentoEEnergia.pdf';
 
 const Fisicamat = () => {
     return (
@@ -27,9 +29,33 @@ const Fisicamat = () => {
             <div class="fundo">
                 <center>
                     <div className="text-container3">
-                        <h4 className="fontezao7cor">Cinemática</h4>
+                        <h4 className="fontezao7cor">Aula 5 - Momento e Energia</h4>
                         <h4 className="cor">
-                            OBF | ITA/IME | SOIF
+                            Preparatório OBF
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={momentoenergia}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Aula 4 - Movimento Circular</h4>
+                        <h4 className="cor">
+                            Preparatório OBF
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={movimentocircular}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Aula 2 - Cinemática</h4>
+                        <h4 className="cor">
+                            Preparatório OBF
                         </h4>
                     </div>
                     <div class="text-container4">

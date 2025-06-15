@@ -7,6 +7,7 @@ import procol from '../docs/materiais/material-quimica/Coligativas.pdf';
 import inorg from '../docs/materiais/material-quimica/Introdução-à-Química-Orgânica.pdf';
 import inter from '../docs/materiais/material-quimica/Introdução_à_Termoquímica.pdf';
 import term from '../docs/materiais/material-quimica/Luiz___Energia_Interna_e_Primeira_Lei_da_termodinâmica.pdf';
+import decnuclear from '../docs/materiais/material-quimica/Radioatividade_Decaimento_Nuclear.pdf';
 
 const Quimicamat = () => {
     return (
@@ -23,6 +24,18 @@ const Quimicamat = () => {
             </center>
             <div class="fundo">
                 <center>
+                    <div className="text-container3">
+                        <h4 className="fontezao7cor">Radioatividade: Decaimento Nuclear</h4>
+                        <h4 className="cor">
+                            OBQ | ITA/IME
+                        </h4>
+                    </div>
+                    <div class="text-container4">
+                        <a class="active" href={decnuclear}>
+                            <h4 className="cordiffff">Material</h4>
+                        </a>
+                    </div>
+                    <br />
                     <div className="text-container3">
                         <h4 className="fontezao7cor">Energia e Primeira Lei da Termodinâmica</h4>
                         <h4 className="cor">
